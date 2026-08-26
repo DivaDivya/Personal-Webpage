@@ -84,9 +84,9 @@ function App() {
           </div>
 
           <div className="social-row">
-            <a href="#" aria-label="GitHub"><Github size={20} /></a>
-            <a href="#" aria-label="LinkedIn"><Linkedin size={20} /></a>
-            <a href="mailto:your-email@example.com" aria-label="Email"><Mail size={20} /></a>
+            <a href="https://github.com/DivaDivya" aria-label="GitHub"><Github size={20} /></a>
+            <a href="https://www.linkedin.com/in/divyasinha28/" aria-label="LinkedIn"><Linkedin size={20} /></a>
+            <a href="mailto:sdivya28@gmail.com" aria-label="Email"><Mail size={20} /></a>
           </div>
         </section>
 
@@ -184,7 +184,7 @@ function App() {
             <div className="section-kicker light">05 / CONTACT</div>
             <h2>Have a role, project, or idea in mind?</h2>
             <p>I’m always interested in thoughtful software, AI, and data opportunities.</p>
-            <a className="button contact-button" href="mailto:your-email@example.com">
+            <a className="button contact-button" href="mailto:sdivya28@gmail.com">
               Let’s connect <Mail size={18} />
             </a>
           </div>
