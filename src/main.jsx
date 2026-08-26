@@ -70,16 +70,18 @@ function App() {
         
             <div className="hero-content">
               <div className="eyebrow">
-                AI/ML ·SOFTWARE ENGINEERING ·FULL STACK
+                SOFTWARE ENGINEERING · AI/ML · FULL STACK
               </div>
         
               <h1>
                 Hi, I’m <span>Divya Sinha.</span>
+                <br />
+                I build useful software.
               </h1>
         
               <p className="hero-copy">
-                I'm a Master's in Computer Science graduate focused on machine learning, 
-                full-stack development and data-driven projects. I enjoy turning
+                Computer Science graduate focused on full-stack development,
+                machine learning, and data-driven products. I enjoy turning
                 complex problems into clean, practical user experiences.
               </p>
         
@@ -117,7 +119,10 @@ function App() {
                   <Linkedin size={20} />
                 </a>
         
-                <a href="mailto:sdivya28@gmail.com" aria-label="Email">
+                <a
+                  href="mailto:sdivya28@gmail.com"
+                  aria-label="Email"
+                >
                   <Mail size={20} />
                 </a>
               </div>
@@ -125,7 +130,7 @@ function App() {
         
             <div className="hero-photo">
               <img
-                src="/divya-profile-pic.jpeg"
+                src="/divya-profile-pic.jpg"
                 alt="Divya Sinha"
               />
             </div>
