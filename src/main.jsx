@@ -70,7 +70,7 @@ function App() {
         
             <div className="hero-content">
               <div className="eyebrow">
-                SOFTWARE ENGINEERING · AI/ML · FULL STACK
+                AI/ML · DATA ANALYSIS · FULL STACK DEVELOPMENT
               </div>
         
               <h1>
@@ -79,8 +79,8 @@ function App() {
         
               <p className="hero-copy">
                 I'm a Master's in Computer Science graduate focused on machine learning,
-                full-stack development and data-driven projects. I enjoy turning
-                complex problems into clean and practical solutions.
+                data analysis and full-stack projects. I enjoy turning complex problems 
+                into clean and practical solutions.
               </p>
         
               <div className="hero-actions">
@@ -139,15 +139,15 @@ function App() {
         <section id="about" className="section container">
           <div className="section-kicker">01 / ABOUT</div>
           <div className="about-grid">
-            <h2>I combine software engineering with data and intelligent systems.</h2>
+            <h2>I build intelligent systems powered by machine learning and data analysis.</h2>
             <div className="about-copy">
               <p>
-                I completed my Master’s in Computer Science at Washington State University,
-                where I built projects spanning web applications, machine learning,
-                databases, security, and data analysis.
+                I have completed my Master’s in Computer Science at Washington State University,
+                where I built projects spanning machine learning, data analysis
+                and web applications.
               </p>
               <p>
-                My strongest interests are software engineering, AI/ML, and building
+                My strongest interests are AI/ML, data analysis and building
                 products that make complicated workflows simpler and more intuitive.
               </p>
             </div>
@@ -198,8 +198,8 @@ function App() {
               <div>
                 <h3>Master of Science in Computer Science</h3>
                 <p>
-                  Graduate coursework and projects across software engineering, machine learning,
-                  web development, security, scientific computing, and data-driven systems.
+                  Graduate coursework and projects across machine learning,
+                  data analysis and software engineering ecosystems.
                 </p>
               </div>
             </div>
@@ -207,9 +207,9 @@ function App() {
             <div className="timeline-item">
               <div className="timeline-meta">SOFTWARE & DATA PROJECTS</div>
               <div>
-                <h3>Full-Stack Development · Machine Learning · Analytics</h3>
+                <h3>Machine Learning ·Analytics  ·Full-Stack Development</h3>
                 <p>
-                  Built end-to-end applications and ML systems using React, Node.js,
+                  Built end-to-end ML systems and applications using React, Node.js,
                   Express, SQL, Python, TensorFlow, PyTorch, and modern development workflows.
                 </p>
               </div>
@@ -229,9 +229,9 @@ function App() {
           <div className="container contact-inner">
             <div className="section-kicker light">05 / CONTACT</div>
             <h2>Have a role, project, or idea in mind?</h2>
-            <p>I’m always interested in thoughtful software, AI, and data opportunities.</p>
+            <p>I’m always interested in thoughtful AI, data and software opportunities.</p>
             <a className="button contact-button" href="mailto:sdivya28@gmail.com">
-              Let’s connect <Mail size={18} />
+              Let’s connect! <Mail size={18} />
             </a>
           </div>
         </section>
