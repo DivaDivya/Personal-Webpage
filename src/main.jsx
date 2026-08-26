@@ -11,7 +11,7 @@ const projects = [
       'Built a full-stack marketplace app with product listings, dynamic templating, and RESTful routing using Node.js, Express, and EJS.',
     stack: ['Node.js', 'Express', 'SQLite', 'EJS', 'Bootstrap'],
     icon: Code2,
-    github: 'https://github.com/DivaDivya',
+    github: 'https://github.com/DivaDivya/Marketplace',
   },
   {
     title: 'Nowcasting Localized Air Temperature Using Deep Learning',
@@ -20,7 +20,7 @@ const projects = [
       'Trained and compared a Feedforward Neural Network (FNN) and hybrid CNN-LSTM model to predict orchard air temperature up to 6 hours ahead at 5-minute intervals using 5 years of real-world weather data.',
     stack: ['Python', 'TensorFlow', 'NumPy', 'Pandas', 'Matplotlib', 'Jupyter Notebook'],
     icon: Brain,
-    github: 'https://github.com/DivaDivya',
+    github: 'https://github.com/DivaDivya/ml-deeplearning-project',
   },
   {
     title: 'Social Media Platform Popularity Analysis by GDP',
