@@ -66,27 +66,72 @@ function App() {
 
       <main>
         <section id="home" className="hero container">
-          <div className="eyebrow">SOFTWARE ENGINEERING · AI/ML · FULL STACK</div>
-          <h1>Hi, I’m <span>Divya Sinha.</span><br />I build useful software.</h1>
-          <p className="hero-copy">
-            Computer Science graduate focused on full-stack development, machine learning,
-            and data-driven products. I enjoy turning complex problems into clean,
-            practical user experiences.
-          </p>
-
-          <div className="hero-actions">
-            <a className="button primary" href="#projects">
-              View my work <ArrowUpRight size={18} />
-            </a>
-            <a className="button secondary" href="/Divya-Sinha-Resume.pdf">
-              Resume <Download size={17} />
-            </a>
-          </div>
-
-          <div className="social-row">
-            <a href="https://github.com/DivaDivya" aria-label="GitHub"><Github size={20} /></a>
-            <a href="https://www.linkedin.com/in/divyasinha28/" aria-label="LinkedIn"><Linkedin size={20} /></a>
-            <a href="mailto:sdivya28@gmail.com" aria-label="Email"><Mail size={20} /></a>
+          <div className="hero-grid">
+        
+            <div className="hero-content">
+              <div className="eyebrow">
+                SOFTWARE ENGINEERING · AI/ML · FULL STACK
+              </div>
+        
+              <h1>
+                Hi, I’m <span>Divya Sinha.</span>
+                <br />
+                I build useful software.
+              </h1>
+        
+              <p className="hero-copy">
+                I'm a Computer Science graduate focused on full-stack development,
+                machine learning, and data-driven products. I enjoy turning
+                complex problems into clean, practical user experiences.
+              </p>
+        
+              <div className="hero-actions">
+                <a className="button primary" href="#projects">
+                  View my work <ArrowUpRight size={18} />
+                </a>
+        
+                <a
+                  className="button secondary"
+                  href="/Divya-Sinha-Resume.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Resume <Download size={17} />
+                </a>
+              </div>
+        
+              <div className="social-row">
+                <a
+                  href="https://github.com/DivaDivya"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="GitHub"
+                >
+                  <Github size={20} />
+                </a>
+        
+                <a
+                  href="https://www.linkedin.com/in/divyasinha28/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="LinkedIn"
+                >
+                  <Linkedin size={20} />
+                </a>
+        
+                <a href="mailto:sdivya28@gmail.com" aria-label="Email">
+                  <Mail size={20} />
+                </a>
+              </div>
+            </div>
+        
+            <div className="hero-photo">
+              <img
+                src="/divya-profile-pic.jpg"
+                alt="Divya Sinha"
+              />
+            </div>
+        
           </div>
         </section>
 
