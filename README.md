@@ -1,4 +1,4 @@
-# Divya Sinha Portfolio
+# Divya Sinha Personal Webpage
 
 ## Run locally
 
