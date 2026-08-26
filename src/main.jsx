@@ -130,7 +130,7 @@ function App() {
         
             <div className="hero-photo">
               <img
-                src="/divya-profile-pic.jpg"
+                src="/divya-profile-pic.jpeg"
                 alt="Divya Sinha"
               />
             </div>
