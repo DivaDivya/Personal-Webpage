@@ -78,9 +78,9 @@ function App() {
               </h1>
         
               <p className="hero-copy">
-                Computer Science graduate focused on full-stack development,
-                machine learning, and data-driven products. I enjoy turning
-                complex problems into clean, practical user experiences.
+                I'm a Master's in Computer Science graduate focused on machine learning,
+                full-stack development and data-driven projects. I enjoy turning
+                complex problems into clean and practical solutions.
               </p>
         
               <div className="hero-actions">
