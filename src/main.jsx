@@ -74,9 +74,7 @@ function App() {
               </div>
         
               <h1>
-                Hi, I’m <span>Divya Sinha.</span>
-                <br />
-                I build useful software.
+                Hi, I’m <span>Divya.</span>
               </h1>
         
               <p className="hero-copy">
