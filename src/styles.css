@@ -97,8 +97,8 @@ button {
 .hero-grid {
   width: 100%;
   display: grid;
-  grid-template-columns: 1.45fr 0.55fr;
-  gap: 70px;
+  grid-template-columns: minmax(0, 1.35fr) minmax(260px, 0.65fr);
+  gap: 60px;
   align-items: center;
 }
 
@@ -114,7 +114,7 @@ button {
 
 .hero-photo img {
   width: 100%;
-  max-width: 330px;
+  max-width: 360px;
   aspect-ratio: 4 / 5;
   object-fit: cover;
   object-position: center;
@@ -140,8 +140,8 @@ button {
 }
 
 .hero h1 {
-  max-width: 960px;
-  font-size: clamp(3.4rem, 8vw, 7.4rem);
+  max-width: 760px;
+  font-size: clamp(3.2rem, 6vw, 6rem);
   font-weight: 800;
 }
 
@@ -413,7 +413,7 @@ button {
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
   .container {
     width: min(100% - 28px, 1120px);
   }
@@ -427,9 +427,9 @@ button {
   }
   
   .hero-photo img {
-    max-width: 280px;
+    max-width: 300px;
   }
-
+    
   .menu-button {
     display: grid;
     place-items: center;
